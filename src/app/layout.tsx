@@ -8,7 +8,8 @@ export const metaData: Metadata = {
 };
 
 const ComforterFont = Comforter({
-  weight: "400"
+  weight: "400",
+  subsets: ["latin"]
 })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
